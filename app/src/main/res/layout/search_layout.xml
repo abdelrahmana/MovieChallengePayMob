@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
         </com.google.android.material.card.MaterialCardView>
-        <com.banquemisr.challenge05.util.NestedScrollPaginationView
+        <com.Movie.challenge.util.NestedScrollPaginationView
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
             android:id="@+id/paginationScrolling"
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"/>
             </LinearLayout>
 
-        </com.banquemisr.challenge05.util.NestedScrollPaginationView>
+        </com.Movie.challenge.util.NestedScrollPaginationView>
         <com.wang.avi.AVLoadingIndicatorView
             style="@style/AVLoadingIndicatorView.Large"
             android:layout_width="wrap_content"

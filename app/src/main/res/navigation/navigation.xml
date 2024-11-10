@@ -6,19 +6,19 @@
     android:id="@+id/navigation">
     <fragment
         android:id="@+id/nav_movie"
-        android:name="com.banquemisr.challenge05.ui.fragment.moviefragment.MovieFragment"
+        android:name="com.Movie.challenge.ui.fragment.moviefragment.MovieFragment"
         android:label="@string/menu_nav"
         tools:layout="@layout/movie_fragment" />
 
     <fragment
         android:id="@+id/nav_movie_details"
-        android:name="com.banquemisr.challenge05.ui.fragment.moviedetails.MovieDetailsFragment"
+        android:name="com.Movie.challenge.ui.fragment.moviedetails.MovieDetailsFragment"
         android:label="@string/menu_nav_details"
         tools:layout="@layout/movie_details_fragment" />
 
     <fragment
         android:id="@+id/nav_movie_search"
-        android:name="com.banquemisr.challenge05.ui.fragment.search.SearchFragment"
+        android:name="com.Movie.challenge.ui.fragment.search.SearchFragment"
         android:label="@string/menu_nav_seach"
         tools:layout="@layout/movie_details_fragment" />
 </navigation>

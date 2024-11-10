@@ -25,7 +25,15 @@
             android:layout_width="match_parent"
             android:minHeight="300dp"
             android:layout_height="wrap_content"/>
-
+            <ImageView
+                android:id="@+id/favouriteUnFavourite"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/unfavourite"
+                app:layout_constraintBottom_toBottomOf="@+id/posterImage"
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
         <TextView
             android:id="@+id/movieName"
             app:layout_constraintEnd_toStartOf="@+id/ratingText"

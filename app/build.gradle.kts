@@ -76,6 +76,7 @@ dependencies {
     implementation ("com.google.android.material:material:1.8.0")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     implementation ("com.github.bumptech.glide:glide:4.12.0")
+    implementation("androidx.test:core-ktx:1.6.1")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
@@ -116,5 +117,6 @@ dependencies {
     implementation ("com.facebook.shimmer:shimmer:0.5.0")
     implementation ("com.todkars:shimmer-recyclerview:0.4.0")
     implementation ("com.android.support:multidex:1.0.3")
-
+    testImplementation ("org.mockito:mockito-core:3.12.4")
+    testImplementation ("org.mockito:mockito-inline:3.12.4") // For inline mocking if needed
 }
